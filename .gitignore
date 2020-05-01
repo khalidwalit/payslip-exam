@@ -1,5 +1,4 @@
-tmp/
-tmp/cache/
-tmp/cache/bootsnap-load-path-cache
-log/development.log
-public/packs/js/application-bbe9c4a129ab949e0636.js
+tmp/*
+log/*
+public/packs/*
+log/*
