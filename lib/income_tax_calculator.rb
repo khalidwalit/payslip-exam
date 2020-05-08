@@ -9,7 +9,7 @@ end
 
 if ARGV[0] == "generate_monthly_payslip"
 
-    payslip = MonthlyPayslip.new.generate_payslip(ARGV[1].to_s, ARGV[2].to_i)
+    payslip = GeneratePayslip.new.generate_payslip(ARGV[1].to_s, ARGV[2].to_i)
 
     puts "Monthly Payslip for: " + ARGV[1].to_s
     puts "Gross Monthly Income: " + payslip.gross_monthly_income
